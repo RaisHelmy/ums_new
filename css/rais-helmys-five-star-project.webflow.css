@@ -1,0 +1,467 @@
+.section-main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.lottie-animation {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: -1;
+}
+
+.lottie-animation.bg {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: -2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 21, 255, 0.3)), color-stop(49%, hsla(0, 0%, 100%, 0)), to(rgba(0, 60, 255, 0.3)));
+  background-image: linear-gradient(180deg, rgba(0, 21, 255, 0.3), hsla(0, 0%, 100%, 0) 49%, rgba(0, 60, 255, 0.3));
+}
+
+.section {
+  height: 400vw;
+}
+
+.section.horizontal-scroll {
+  position: static;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  overflow: visible;
+  margin-left: 0px;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.camera {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  overflow: visible;
+  width: 100vw;
+  height: 100vh;
+}
+
+.frame {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  height: 100%;
+}
+
+.item {
+  width: auto;
+  height: 100vh;
+  margin-left: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+}
+
+.item:hover {
+  width: 300vw;
+  height: 350vh;
+}
+
+.div-block {
+  width: 100vw;
+  height: 100vh;
+  margin-right: 0px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #2500fa;
+  border-radius: 7px;
+  background-color: transparent;
+}
+
+.image {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px 40px;
+}
+
+.image-2 {
+  position: relative;
+  top: -475px;
+  z-index: 1;
+  width: 100vw;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.image-3 {
+  position: relative;
+  z-index: 2;
+  width: 100vw;
+  height: auto;
+  margin-top: -4px;
+  padding-top: 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.image-4 {
+  position: relative;
+  top: 0px;
+  z-index: 3;
+  width: 100vw;
+  margin-top: -911px;
+  padding-top: 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.image-5 {
+  position: relative;
+  z-index: 4;
+  width: 100vw;
+  height: auto;
+  margin-top: -1017px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.div-block-2 {
+  width: 20vw;
+  height: 20vw;
+  margin: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: hsla(0, 0%, 100%, 0.59);
+  border-radius: 8px;
+}
+
+.container {
+  height: 100vh;
+}
+
+.container-2 {
+  position: fixed;
+  left: 52px;
+  margin-top: 35px;
+  background-color: transparent;
+}
+
+.heading {
+  position: relative;
+  left: 0px;
+  top: 11px;
+  display: inline-block;
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 37px;
+  padding-top: 0px;
+  float: none;
+  clear: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 70px;
+  text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.72);
+}
+
+.div-block-3 {
+  display: inline-block;
+  width: 200px;
+}
+
+.div-block-frame {
+  position: relative;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  margin-top: 2px;
+  margin-bottom: 36px;
+  margin-left: 2px;
+  padding-top: 0px;
+  padding-left: 0px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #fff;
+  border-radius: 14px;
+  background-color: hsla(0, 0%, 100%, 0.74);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#000), color-stop(27%, rgba(0, 0, 0, 0.29)), to(hsla(0, 0%, 100%, 0))), url('../images/pexels-andrea-piacquadio-3808057-1.jpg');
+  background-image: linear-gradient(0deg, #000, rgba(0, 0, 0, 0.29) 27%, hsla(0, 0%, 100%, 0)), url('../images/pexels-andrea-piacquadio-3808057-1.jpg');
+  background-position: 0px 0px, 50% 0%;
+  background-size: auto, cover;
+}
+
+.div-block-frame:hover {
+  width: 300px;
+}
+
+.div-block-frame:active {
+  width: 300px;
+  margin-left: 2px;
+}
+
+.div-block-frame:focus {
+  height: 195px;
+}
+
+.container-frame {
+  position: absolute;
+  left: 10%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  display: inline-block;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.div-block-mage {
+  height: 150px;
+  border-radius: 8px;
+  background-color: #000;
+  background-image: url('../images/pexels-andrea-piacquadio-3808057-1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.div-block-5 {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  height: 30px;
+  margin: 10px 10px 0px;
+  padding-right: 0px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #fff;
+  border-radius: 5px;
+  background-image: none;
+}
+
+.text-block {
+  padding-top: 2px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.body {
+  overflow: visible;
+  max-height: 400vh;
+}
+
+.html-embed {
+  display: none;
+}
+
+.card-highlight {
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  border: 1px none #000;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.14;
+  -webkit-filter: blur(6px);
+  filter: blur(6px);
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.card-highlight:active {
+  height: 0px;
+}
+
+.div-block-6 {
+  display: inline-block;
+  overflow: hidden;
+  width: 310px;
+  height: 360px;
+  margin-top: -3px;
+  margin-left: -3px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: hsla(0, 0%, 100%, 0.7);
+  border-radius: 19px;
+}
+
+.faculties {
+  width: 267px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #000;
+  border-radius: 10px;
+  background-color: #093a83;
+  background-image: linear-gradient(225deg, #050041, #0eb5fd);
+  box-shadow: 4px 4px 7px -2px rgba(0, 0, 0, 0.52);
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.faculties.fci {
+  width: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.faculties.e {
+  width: 270px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.faculties.a {
+  width: 250px;
+}
+
+.faculties.b {
+  width: 196px;
+}
+
+.faculties-block {
+  position: static;
+  left: 0px;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: inline-block;
+  margin: 0px 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+  float: none;
+  clear: none;
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
+}
+
+.lottie-animation-2 {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin-left: -3px;
+  padding-left: 0px;
+  border-radius: 9px 9px 1px;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fff), color-stop(28%, hsla(0, 0%, 100%, 0.43)));
+  background-image: linear-gradient(0deg, #fff, hsla(0, 0%, 100%, 0.43) 28%);
+  text-align: left;
+}
+
+.faculties-x {
+  position: static;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: inline-block;
+  overflow: hidden;
+  width: 300vw;
+  height: 90vh;
+  max-height: 70vh;
+  margin-top: 99px;
+  margin-left: 400px;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
+}
+
+.div-block-8 {
+  position: relative;
+  z-index: 3;
+  display: inline-block;
+  width: 280px;
+  height: auto;
+  margin-top: 74px;
+  margin-bottom: 74px;
+  margin-left: 429px;
+}
+
+.div-block-8.l {
+  margin-left: -5px;
+}
+
+.div-block-8.a {
+  margin-left: -19px;
+}
+
+.div-block-8.b {
+  margin-left: -2px;
+}
+
+@media screen and (max-width: 991px) {
+  .section.horizontal-scroll {
+    height: auto;
+  }
+
+  .camera {
+    overflow: visible;
+    width: auto;
+    height: auto;
+  }
+
+  .frame {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .item {
+    height: 40vh;
+  }
+
+  .image {
+    display: inline-block;
+    overflow: visible;
+    width: auto;
+    height: 100%;
+    text-align: left;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .text-block {
+    padding-top: 5px;
+  }
+}
